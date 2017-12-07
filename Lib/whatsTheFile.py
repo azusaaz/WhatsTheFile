@@ -3,7 +3,7 @@ import sys
 import hashlib
 
 
-class wtf:
+class whatsTheFile:
 
     def getFileName(filePath):
         if not os.path.isfile(filePath):
@@ -15,21 +15,7 @@ class wtf:
              return ('file does not exist')
         return (os.path.getsize(filePath))
 
-    def to_md5(filePath):
-        if not os.path.isfile(filePath):
-            return ('file does not exist')
-        f = open(filePath, 'r')
-        str = f.read()
-        f.close()
-        return (hashlib.md5(str.encode('utf-8')).digest())
 
-    def to_sha1(filePath):
-        if not os.path.isfile(filePath):
-            return ('file does not exist')
-        f = open(filePath, 'r')
-        str = f.read()
-        f.close()
-        return (hashlib.sha1(str.encode('utf-8')).digest())
 
     if __name__ == '__main__':
 
@@ -38,6 +24,5 @@ class wtf:
 
         print ('file name: %s' % getFileName(filePath))
         print ('file size: %s' % getFileSize(filePath))
-        print ('md5      : %s' % to_md5(filePath))
-        print ('sha1     : %s' % to_sha1(filePath))
+
 
