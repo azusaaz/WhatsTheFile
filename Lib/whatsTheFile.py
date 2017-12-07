@@ -3,7 +3,7 @@ import sys
 import hashlib
 
 
-class whatsTheFile:
+class wtf:
 
     def getFileName(filePath):
         if not os.path.isfile(filePath):
