@@ -36,7 +36,9 @@ class wtf:
         print ('please input a file path')
         filePath = input();
 
-        print ('file name: %s' % getFileName(filePath))
+		print ('file name: %s' % getFileName(filePath))
         print ('file size: %s' % getFileSize(filePath))
+        print ('md5      : %s' % to_md5(filePath))
+        print ('sha1     : %s' % to_sha1(filePath))
 
 
