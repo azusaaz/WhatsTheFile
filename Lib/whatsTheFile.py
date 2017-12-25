@@ -20,16 +20,20 @@ class wtf:
             return ('file does not exist')
         f = open(filePath, 'r')
         str = f.read()
+        str = str.strip( )
+        str = str.encode('utf-8')
         f.close()
-        return (hashlib.md5(str.encode('utf-8')).digest())
+        return (hashlib.md5(str).hexdigest())
 
     def to_sha1(filePath):
         if not os.path.isfile(filePath):
             return ('file does not exist')
         f = open(filePath, 'r')
         str = f.read()
+        str = str.strip( )
+        str = str.encode('utf-8')
         f.close()
-        return (hashlib.sha1(str.encode('utf-8')).digest())
+        return (hashlib.sha1(str).hexdigest())
 
     if __name__ == '__main__':
 
