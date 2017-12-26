@@ -47,7 +47,9 @@ print(whatsTheFile.wtf.getFileName(filePath))
 a = whatsTheFile  
 print(a.wtf.getFileName(filePath))  
 ```
-
+## Exaple
+Call WhatsTheFile fuction from the another file    
+https://github.com/azusaaz/WhatsTheFile/blob/master/test.py
 ## License
 
 MIT
