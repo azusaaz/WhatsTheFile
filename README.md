@@ -1,4 +1,4 @@
-# WhatsTheFile
+# WhatsTheFile  <img src="https://travis-ci.org/azusaaz/WhatsTheFile.svg?branch=test3"></a>
 Python library for obtaining file info and for hashing a text file with md5 or sha1
 
 
