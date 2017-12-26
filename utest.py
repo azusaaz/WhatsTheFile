@@ -15,7 +15,7 @@ class Test(unittest.TestCase):
     def testSize(self):
         a = whatsTheFile
         filepath = "./mydata.txt"
-        self.assertEqual(a.wtf.getFileSize(filepath), 44)
+        self.assertEqual(a.wtf.getFileSize(filepath), 43)
 
 if __name__ == '__main__':
     unittest.main()
