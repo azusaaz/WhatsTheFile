@@ -1,7 +1,6 @@
 import os
 import sys
 
-
 from Lib import whatsTheFile
 
 print ('please input a file path')
