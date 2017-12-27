@@ -22,11 +22,7 @@ class wtf:
             return ('file does not exist')
         f = open(filePath, 'r')
         str = f.read()
-<<<<<<< HEAD
-        str = str.strip( )
-=======
         str = str.strip()  #trim the string
->>>>>>> 634cc6829edc51b558d932d85b1455b078b4b604
         str = str.encode('utf-8')
         f.close()
         return (hashlib.md5(str).hexdigest())
@@ -37,11 +33,7 @@ class wtf:
             return ('file does not exist')
         f = open(filePath, 'r')
         str = f.read()
-<<<<<<< HEAD
-        str = str.strip( )
-=======
         str = str.strip()  #trim the string
->>>>>>> 634cc6829edc51b558d932d85b1455b078b4b604
         str = str.encode('utf-8')
         f.close()
         return (hashlib.sha1(str).hexdigest())
