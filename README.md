@@ -11,7 +11,7 @@ whatsTheFile.py contains the 4 functions that take a filepath as an argument.
 
 ex. If the filepath was "/home/aaa/mydata.txt", which contains the text "The quick brown fox jumps over the lazy dog",  
   ....... getFileName(filepath) return "mydata.txt"  
-  ....... getFileSize(filepath) return "44"  
+  ....... getFileSize(filepath) return "43"  
   ....... to_md5(filepath)   return "2fd4e1c67a2d28fced849ee1bb76e7391b93eb12"  
   ....... to_sha1(filepath) return "9e107d9d372bb6826bd81d3542a419d6"  
 
